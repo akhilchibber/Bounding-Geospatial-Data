@@ -3,6 +3,51 @@
   <img src="https://github.com/akhilchibber/Bounding-Geospatial-Data/blob/main/bounding_geospatial_data.jpg?raw=true" alt="earthml Logo">
 </p>
 
-We'll explore a variety of techniques for defining boundaries around a set of geospatial points, lines, or polygons. Bounding a dataset is like drawing an invisible fence around the data, enabling efficient searching, querying, and processing. We will delve into few distinct bounding methods, exploring their characteristics. Our objective is to help select the optimal bounding method for our specific use case.
+Welcome to the Geospatial Shapefile Processing Toolkit! This repository contains a collection of Python scripts, each designed to perform a specific type of processing on polygon shapefiles. Whether you're looking to extract geometrical shapes, analyze spatial boundaries, or transform data, these scripts provide a range of functionalities to suit your needs.
+
+## Scripts Overview
+
+1. **Delaunay Triangulation (TRIANGULATION.py)**: Generates a Delaunay Triangulation from a given polygon shapefile, useful for spatial analysis and triangulating points in a plane.
+
+2. **Rotational Bounding Box (RO_BBOX.py)**: Calculates the rotational bounding box for a given polygon shapefile, which can be used in spatial data visualization and analysis.
+
+3. **Convex Hull Extraction (CONVEX_HULL.py)**: Creates the Convex Hull of a polygon shapefile. This is helpful in understanding the outer boundary of a shape or dataset.
+
+4. **Concave Hull Extraction (CONCAVE_HULL.py)**: Extracts the Concave Hull from a polygon shapefile, offering a tighter fitting boundary than the convex hull for irregular shapes.
+
+5. **Circle Extraction (CIRCLE.py)**: Determines the smallest enclosing circle for a given polygon shapefile, useful in various geometrical computations.
+
+6. **Bezier Envelope (BEZIER_ENVELOPE.py)**: Generates a Bezier Envelope from a polygon shapefile, which can be used for advanced geometrical representations and analyses.
+
+7. **Bounding Box (BBOX.py)**: Extracts the standard bounding box of a polygon shapefile, essential for many spatial analysis tasks.
+
+## Getting Started
+
+To use these scripts, you'll need Python installed on your system along with libraries such as `geopandas`, `shapely`, `scipy`, `numpy`, and others specific to each script.
+
+### Prerequisites
+
+- Python 3.x
+- Libraries: `geopandas`, `shapely`, `scipy.spatial`, `numpy`, `alphashape`, `smallestenclosingcircle`, etc.
+
+### Running the Scripts
+
+1. Clone this repository to your local machine.
+2. Install the required libraries.
+3. Run the desired script with the appropriate shapefile as input.
+
+## Contributing
+
+Contributions to enhance the functionality and efficiency of these scripts are welcome. Feel free to fork the repository, make your improvements, and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## Contact
+
+Your Name - Akhil Chhibber
+
+LinkedIn: https://www.linkedin.com/in/akhilchhibber/
 
 Blog: https://medium.com/@akhil.chibber/bounding-geospatial-data-different-approaches-and-methods-704cff4eafed
