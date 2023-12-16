@@ -52,7 +52,7 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Contact
 
-Your Name - Akhil Chhibber
+Author - Akhil Chhibber
 
 LinkedIn: https://www.linkedin.com/in/akhilchhibber/
 
