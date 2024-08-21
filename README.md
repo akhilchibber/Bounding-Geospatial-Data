@@ -57,3 +57,5 @@ Author: Akhil Chhibber
 LinkedIn: https://www.linkedin.com/in/akhilchhibber/
 
 Blog: https://medium.com/@akhil.chibber/bounding-geospatial-data-different-approaches-and-methods-704cff4eafed
+
+Medium Blogs: https://medium.com/@akhil.chibber
