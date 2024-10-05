@@ -1,6 +1,6 @@
 # Bounding Geospatial Data: Different Approaches and Methods
 <p align="center">
-  <img src="https://github.com/akhilchibber/Bounding-Geospatial-Data/blob/main/bounding_geospatial_data.jpg?raw=true" alt="earthml Logo">
+  <img src="https://github.com/akhilchibber/Bounding-Geospatial-Data/blob/main/Bounding-Geospatial-Data.png?raw=true" alt="earthml Logo">
 </p>
 
 Welcome to the Geospatial Shapefile Processing Toolkit! This repository contains a collection of Python scripts, each designed to perform a specific type of processing on polygon shapefiles. Whether you're looking to extract geometrical shapes, analyze spatial boundaries, or transform data, these scripts provide a range of functionalities to suit your needs.
